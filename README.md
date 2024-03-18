@@ -6,11 +6,20 @@ Ministry of health wants to build a database for the analysis of medical prescri
 
 ## Deliverables:
 
-1. (10%) Use the Entity-Relationship Diagram (ERD) to model entities, relationships, attributes, cardinalities, and all necessary constraints. Use any tool you want to draw the ERD.
+### Task 1: Entity-Relationship Diagram (ERD) 
+(10%)
 
-2. (10%) Create the relational schema in MySQL/SQLServer and insert a few records into the tables to test your queries below. You will have to hand in the CREATE TABLE statements.
+Use the Entity-Relationship Diagram (ERD) to model entities, relationships, attributes, cardinalities, and all necessary constraints. Use any tool you want to draw the ERD.
 
-3. (60%) Write SQL code and test it to your data for the following queries:
+### Task 2: Relational Schema and Data Insertion
+(10%)
+
+Create the relational schema in MySQL/SQLServer and insert a few records into the tables to test your queries below. You will have to hand in the CREATE TABLE statements.
+
+### Task 3: SQL Queries
+(60%)
+
+Write SQL code and test it to your data for the following queries:
 a. Show the SSN and the name of male patients older than 30 years old that had at least one prescription ordered for them in 2021
 b. Show the SSN of female patients who had prescriptions ordered for them in 2021 for a total amount more than 1000€.
 c. For each area, show the area’s id, the area’s name and the total amount of drugs prescribed by doctors working in that area
@@ -20,4 +29,7 @@ f. For each doctor’s specialization, show the specialization and the total num
 g. For each drug id, show the percentage change in the total amount of prescriptions for that drug in 2021 vs. 2020.
 h. For each drug id and for prescriptions of 2021, show the total amount of the drug’s prescriptions ordered for male customers (2nd column), and the total amount of the drug’s prescriptions ordered for female customers (2nd column).
 
-4. (20%) Using the programming language of your choice (Python/R), write a program that connects to the database and then prints out a line for each prescription with the following information: the id, date and time of the prescription, the name and phone number of the patient, the name and specialization of the doctor who ordered the prescription, and the name of the drug, its unit price and the quantity of the prescription.
+### Task 4: Database Interaction Program
+(20%)
+
+Using the programming language of your choice (Python/R), write a program that connects to the database and then prints out a line for each prescription with the following information: the id, date and time of the prescription, the name and phone number of the patient, the name and specialization of the doctor who ordered the prescription, and the name of the drug, its unit price and the quantity of the prescription.
