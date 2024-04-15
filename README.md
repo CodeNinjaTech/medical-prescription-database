@@ -1,5 +1,7 @@
 # Medical Prescription Database
 
+Assignment 1 for the Data Management and Business Intelligence Course of AUEB's MSc in Business Analytics.
+
 ## Description of the Case:
 
 Ministry of health wants to build a database for the analysis of medical prescriptions. A prescription is described by a unique id, the date and time of the prescription and a quantity (for the drug prescribed). A prescription is ordered by a doctor, who has a unique id, name and specialization. A doctor works in an area. An area has a unique id. a name and a mean income. A prescription is ordered for a patient, who is described by his/her SSN, a name, his/her phone number, date of birth and gender. Finally, a prescription is for a single drug. A drug has a unique id, a name, a description and a price (the price of a single unit).
